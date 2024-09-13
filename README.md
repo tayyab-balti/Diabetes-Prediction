@@ -45,13 +45,22 @@ Key findings from the dataset exploration:
 # Machine Learning Models
 The following models have been trained and evaluated:
 
-- Random Forest Classifier
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
+- Support Vector Machines (SVM)
+- Decision Trees
+- Random Forest Classifier
 - Naive Bayes
 
 ## Performance Metrics
 The performance of each model was evaluated based on accuracy and confusion matrix.
+
+## Model Accuracy Comparison
+
+![Model Accuracy Comparison](./images/model_accuracy.png)
+
+**Logistic Regression was chosen as the final model due to its high accuracy.**
+
 
 # Streamlit Web Application
 The Streamlit app allows users to input medical data manually via sliders, and it predicts the likelihood of diabetes. Key features of the app:
